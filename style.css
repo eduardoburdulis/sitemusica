@@ -1,0 +1,143 @@
+.titulo1 {
+  text-align: center;
+}
+
+.titulo2 {
+  text-align: center;
+}
+
+.titulo3 {
+  text-align: center;
+  padding: 5px
+}
+
+.titulo4 {
+  text-align: center;
+  color: red;
+}
+
+.paragrafo {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: red;
+}
+
+h2 {
+  padding: 20px;
+  color: red;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.final {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.genero {
+  text-align: center;
+  padding: 20px;
+  text-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif; /* Fonte para o corpo do texto */
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif; /* Fonte para títulos */
+    color: red;
+    font-size: 34px;
+}
+main { 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites */
+  padding: 2px;
+}
+
+.carrossel {
+  display: flex; /* Dispor os itens lado a lado */
+  width: 100%; /* 100% para cada item, ajustando para 3 slides */
+  animation: slide 6s infinite; /* Ajuste a duração conforme necessário */
+  gap: 5px;
+}
+
+.item {
+  flex: 1 0 100%; /* Ocupa 100% do container */
+  height: 500px; /* Ajuste conforme necessário */
+}
+
+.item img {
+  width: 80%; /* Imagem ocupa toda a largura do item */
+  height: 80%; /* Imagem ocupa toda a altura do item */
+  object-fit: cover; /* Ajuste para evitar distorção */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* Posição inicial */
+  }
+  33.33% {
+    transform: translateX(-100%); /* Mostra o segundo slide */
+  }
+  66.66% {
+    transform: translateX(-200%); /* Mostra o terceiro slide */
+  }
+  100% {
+    transform: translateX(0); /* Volta ao início */
+  }
+}
+
+.caixa1 {
+  margin: 30px;
+  padding: 30px;
+  border: 3px solid white;
+  background-color: #000000;
+  border-radius: -100%;
+  color: white;
+}
+
+.caixa2 {
+  margin: 5px;
+  padding: 20px;
+  border: 5px solid white;
+  background-color: black;
+  border-radius: -100%;
+}
+
+.caixa {
+  margin: 20px;
+  padding: 12px;
+  border: 20px;
+  background-color: black;
+  color: red;
+}
+
+.fim {
+  text-align: center;
+  color: red;
+}
+
+.destaque {
+  font-weight: bold;
+}
