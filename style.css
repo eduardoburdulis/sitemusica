@@ -88,8 +88,8 @@ main {
 }
 
 .item img {
-  width: 80%; /* Imagem ocupa toda a largura do item */
-  height: 80%; /* Imagem ocupa toda a altura do item */
+  max-width: 100%; /* Imagem ocupa toda a largura do item */
+  max-height: 100%; /* Imagem ocupa toda a altura do item */
   object-fit: cover; /* Ajuste para evitar distorção */
 }
 
