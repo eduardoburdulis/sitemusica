@@ -8,7 +8,7 @@
 
 .titulo3 {
   text-align: center;
-  padding: 5px
+  padding: 5px;
 }
 
 .titulo4 {
@@ -147,6 +147,7 @@ main {
 .fim {
   text-align: center;
   color: red;
+  font-size: 30px;
 }
 
 .destaque {
