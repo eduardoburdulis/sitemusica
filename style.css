@@ -154,6 +154,7 @@ main {
 
 .destaque {
   font-weight: bold;
+  color: red;
 }
 
 @keyframes rgbBorder {
