@@ -185,8 +185,8 @@ main {
 }
 
 .graficos {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   text-align: center;
   color: white;
 }
@@ -199,7 +199,7 @@ main {
 }
 
 .grafico img {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
