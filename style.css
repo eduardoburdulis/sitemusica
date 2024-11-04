@@ -185,21 +185,24 @@ main {
 }
 
 .graficos {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: 800px; /* Limite de largura para textos mais confortáveis */
+  margin: 0 auto; /* Centraliza a div na tela */
   text-align: center;
   color: white;
+  padding: 20px; /* Espaçamento ao redor do texto */
 }
 
 .grafico {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px; /* ajuste o tamanho da div conforme necessário */
+  width: 100%;
+  padding: 20px 0; /* Espaçamento ao redor da imagem */
 }
 
 .grafico img {
-  width: 400px;
-  height: 400px;
- /* object-fit: cover;*/
+  max-width: 100%; /* Garante que a imagem ocupe no máximo a largura da tela */
+  height: auto; /* Mantém a proporção original da imagem */
+  border-radius: 10px; /* Suaviza os cantos da imagem, opcional */
 }
