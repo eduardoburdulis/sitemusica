@@ -183,3 +183,14 @@ main {
     box-shadow: 0 0 15px 5px red;
   }
 }
+
+.gráficos {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+
+.grafico {
+  display: block;
+  margin: 0 auto;
+}
