@@ -195,11 +195,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px; /* ajuste o tamanho da div conforme necessário */
+  height: 80px; /* ajuste o tamanho da div conforme necessário */
 }
 
 .grafico img {
-  width: 400px;
-  height: 400px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
 }
