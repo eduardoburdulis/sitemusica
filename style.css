@@ -187,11 +187,12 @@ main {
 .imagem5 {
   width: 80px;
   height: 80px;
+  color: white;
 }
 
 .graficos {
   width: 200px;
   height: 200px;
   text-align: center;
-  color: red;
+  color: white;
 }
