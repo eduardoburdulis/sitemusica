@@ -184,13 +184,13 @@ main {
   }
 }
 
-/*.graficos {
+.grafico {
   text-align: center;
   color: red;
   font-size: 30px;
-}*/
+}
 
-.grafico {
+.graficos {
   width: 100%;
   height: 100%;
 }
