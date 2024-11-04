@@ -184,15 +184,22 @@ main {
   }
 }
 
-.imagem5 {
-  width: 800px;
-  height: 800px;
-  color: white;
-}
-
 .graficos {
   width: 200px;
   height: 200px;
   text-align: center;
   color: white;
+}
+
+.grafico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px; /* ajuste o tamanho da div conforme necessário */
+}
+
+.grafico img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
