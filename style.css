@@ -189,9 +189,9 @@ main {
   height: 80px;
 }
 
-.grafico {
-  width: 70px;
-  height: 70px;
+.graficos {
+  width: 200px;
+  height: 200px;
   text-align: center;
   color: red;
 }
