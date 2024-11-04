@@ -193,7 +193,7 @@ main {
 .grafico {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
 }
