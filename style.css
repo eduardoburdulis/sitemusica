@@ -184,14 +184,13 @@ main {
   }
 }
 
-.graficos {
+/*.graficos {
   text-align: center;
   color: red;
   font-size: 30px;
-}
+}*/
 
 .grafico {
   width: 70px;
   height: 70px;
-  object-fit: cover;
 }
